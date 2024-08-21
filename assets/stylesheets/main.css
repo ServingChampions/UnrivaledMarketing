@@ -1,0 +1,89 @@
+/* 
+Colors:
+
+Green: #024C30
+Gold: #B8860B
+*/
+
+/******************************************
+  /* Reset
+  /*******************************************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+header{
+  display: none;
+}
+
+footer{
+  display: none;
+}
+
+.sc-footer{
+  display: none;
+}
+
+/******************************************
+  /* Construction
+  /*******************************************/
+
+  body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background-color: #68818d;
+  }
+  
+  .container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh; /* Set minimum height for full viewport */
+  }
+  
+  img {
+	width: 80%; /* Adjust width as needed */
+	max-width: 1000px; /* Optional max width to prevent overflow on smaller screens */
+  }
+  
+  .buttons {
+	margin-top: 20px;
+  }
+  
+  .btn {
+	display: inline-block;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	color: #fff;
+	cursor: pointer;
+	text-decoration: none;
+  }
+  
+  .btn-primary {
+	background-color: #114153;
+  }
+  
+  .btn-secondary {
+	background-color: #114153;
+	margin-left: 10px;
+  }
