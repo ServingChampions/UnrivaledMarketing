@@ -1,8 +1,6 @@
 /* 
 Colors:
 
-Green: #024C30
-Gold: #B8860B
 */
 
 /******************************************
@@ -46,7 +44,7 @@ footer{
   /*******************************************/
 
   body {
-	margin: 0;
+	margin: -30;
 	font-family: Arial, sans-serif;
 	background-color: #68818d;
   }
@@ -62,6 +60,23 @@ footer{
   img {
 	width: 80%; /* Adjust width as needed */
 	max-width: 1000px; /* Optional max width to prevent overflow on smaller screens */
+  }
+
+  .con1 {
+	width: 130%; /* Adjust width as needed */
+	max-width: 2000px; /* Optional max width to prevent overflow on smaller screens */
+	padding-bottom: 20px;
+  }
+
+  .con2 {
+	width: 85%; /* Adjust width as needed */
+	max-width: 1000px; /* Optional max width to prevent overflow on smaller screens */
+  }
+
+  .con3 {
+	width: 105%; /* Adjust width as needed */
+	max-width: 2000px; /* Optional max width to prevent overflow on smaller screens */
+	padding-top: 20px;
   }
   
   .buttons {
